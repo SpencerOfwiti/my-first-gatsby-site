@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { heading } from '../components/layout.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPage = () => {
   return (
@@ -19,6 +20,10 @@ const IndexPage = () => {
                   😎
               </span>
           </p>
+          <StaticImage
+              alt="Keyboard with StarWars Stormtrooper peeking through"
+              src="../images/keys.jpg"
+          />
       </Layout>
   )
 }
